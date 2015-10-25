@@ -5,10 +5,11 @@
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   max-width: 100%;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
+  color: rgba(245, 246, 239, 0.01);
+
 }
 /* Top Navigation */
 .top-nav {
@@ -19,7 +20,7 @@ body {
 /* Main */
 main {
   overflow: auto;
-  flex: 1 0;
+  /*flex: 1 0;*/
   background: lightgrey;
 }
 
@@ -31,15 +32,13 @@ header {
   background: url("http://lorempixel.com/c/1000/1000/nature")
     no-repeat center center;
   background-size: cover;
-  color: white;
+  /*color: white;*/
 }
 
 .hero {
   position: absolute;
   width: 100%;
   bottom: 30%;
-  /*left: 50%;
-  transform: translateX(-50%);*/
   text-align: center;
 }
 /* Middle Content */
@@ -48,52 +47,25 @@ header {
   width: 60%;
   margin: 0 5px;
   padding: 10px 0 0px 10px;
+  background: purple;
 }
 .sidebar {
   display: inline-block;
   width: 30%;
   margin: 0 5px;
   padding: 10px 10px 0px 0px;
+  background: blue;
 }
 
 /* Container Content */
-.container .four-up {
-  /*float: left;*/
-  display: inline-block;
-  width: 200px;
+.container {
+  background: red;
 }
 
-article img {
-  background: url("http://lorempixel.com/q/c/150/150/people")
-    no-repeat center center;
-}
-
-}
-.container h1 {
-  text-align: center;
-}
-.container .h4 {
-  font-size: .5rem;
-  text-align: center;
-}
 /* Footer */
-.site-info p {
-  overflow: auto;
-  float: left;
-  position: static;
-  padding: 2rem;
-  background: orange;
-  color: white;
-}
-
-.footer-nav {
-  overflow: auto;
-  float: right;
-  position: static;
+footer {
+  display: block;
+  position: sticky;
   top: 100%;
-  width: auto;
-  text-decoration: none;
-  background: orange;
-  color: white
-
+  background: orange
 }
