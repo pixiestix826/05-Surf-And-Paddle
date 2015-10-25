@@ -10,13 +10,13 @@ body {
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
 }
-
+/* Top Navigation */
 .top-nav {
   overflow: hidden;
   height: 3rem;
   background: red;
 }
-
+/* Main */
 main {
   overflow: auto;
   flex: 1 0;
@@ -30,17 +30,19 @@ header {
   max-width: 100%;
   background: url("http://lorempixel.com/c/1000/1000/nature")
     no-repeat center center;
+  background-size: cover;
   color: white;
 }
 
 .hero {
   position: absolute;
+  width: 100%;
   bottom: 30%;
-  left: 50%;
-  transform: translateX(-50%);
+  /*left: 50%;
+  transform: translateX(-50%);*/
   text-align: center;
 }
-
+/* Middle Content */
 .left-column {
   display: inline-block;
   width: 60%;
@@ -54,6 +56,7 @@ header {
   padding: 10px 10px 0px 0px;
 }
 
+/* Container Content */
 .container .four-up {
   /*float: left;*/
   display: inline-block;
@@ -73,7 +76,7 @@ article img {
   font-size: .5rem;
   text-align: center;
 }
-
+/* Footer */
 .site-info p {
   overflow: auto;
   float: left;
@@ -85,7 +88,7 @@ article img {
 
 .footer-nav {
   overflow: auto;
-  display: inline-block;
+  float: right;
   position: static;
   top: 100%;
   width: auto;
