@@ -3,12 +3,12 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  max-width: 100%;
+  display: block;
+  position: absolute;
+  max-width: 1000px;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
-  color: rgba(245, 246, 239, 0.01);
+  /*color: rgba(245, 246, 239, 0.01);*/
 
 }
 /* Top Navigation */
@@ -16,43 +16,44 @@ body {
   overflow: hidden;
   height: 3rem;
   background: red;
+  margin: 0 2px;
 }
 /* Main */
 main {
   overflow: auto;
-  /*flex: 1 0;*/
   background: lightgrey;
 }
 
 header {
   overflow: hidden;
   position: relative;
-  height: calc(50vh - 5rem);
+  height: 500px;
   max-width: 100%;
   background: url("http://lorempixel.com/c/1000/1000/nature")
     no-repeat center center;
   background-size: cover;
+  margin: 0 2px;
   /*color: white;*/
 }
 
 .hero {
   position: absolute;
   width: 100%;
-  bottom: 30%;
   text-align: center;
 }
 /* Middle Content */
 .left-column {
   display: inline-block;
   width: 60%;
-  margin: 0 5px;
+  margin: 10px 20px;
   padding: 10px 0 0px 10px;
   background: purple;
+
 }
 .sidebar {
   display: inline-block;
   width: 30%;
-  margin: 0 5px;
+  margin: 0 20px 0 10px;
   padding: 10px 10px 0px 0px;
   background: blue;
 }
@@ -67,5 +68,7 @@ footer {
   display: block;
   position: sticky;
   top: 100%;
-  background: orange
+  height: 3rem;
+  background: orange;
+  margin: 0 2px;
 }
