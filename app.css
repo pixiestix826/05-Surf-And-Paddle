@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  max-width: 100%;
   font-family: font-family:
   'PT Sans', sans-serif;
   font-weight: 400;
@@ -27,6 +28,7 @@ header {
   overflow: hidden;
   position: relative;
   height: calc(50vh - 5rem);
+  width: 1000px;
   background: url("http://lorempixel.com/c/1000/1000/nature")
     no-repeat center center;
   color: white;
@@ -41,19 +43,23 @@ header {
 }
 
 .left-column {
-  float: left;
   display: inline-block;
-  width: 66.666%;
+  width: 60%;
+  margin: 0 5px;
+  /*padding: 10px 0 0px 10px;*/
 }
 .sidebar {
-  float: right;
   display: inline-block;
-  width: 33.333%;
-  margin: auto;
+  width: 30%;
+  margin: 0 5px;
+  /*padding: 10px 10px 0px 0px;*/
 }
-.container {
+
+.container .four-up {
+  /*float: left;*/
   display: inline-block;
-  margin-top: 20px;
+  width: 200px;
+
 }
 .container h1 {
   text-align: center;
