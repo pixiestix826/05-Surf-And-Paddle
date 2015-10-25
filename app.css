@@ -1,12 +1,64 @@
 * {
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-
   font-family: font-family:
   'PT Sans', sans-serif;
   font-weight: 400;
+}
+
+.top-nav {
+  overflow: hidden;
+  height: 3rem;
+  background: red;
+}
+
+main {
+  overflow: auto;
+  flex: 1 0;
+  background: lightgrey;
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  height: calc(50vh - 5rem);
+  background: url("http://lorempixel.com/c/1000/1000/nature")
+    no-repeat center center;
+  color: white;
+}
+
+.hero {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.left-column {
+  float: left;
+  display: inline-block;
+  width: 66.666%;
+}
+.sidebar {
+  float: right;
+  display: inline-block;
+  width: 33.333%;
+  margin: auto;
+}
+.container {
+  display: inline-block;
+  margin-top: 20px;
+}
+.container h1 {
+  text-align: center;
+}
+.container .h4 {
+  font-size: .5rem;
+  text-align: center;
 }
