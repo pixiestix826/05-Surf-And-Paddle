@@ -29,7 +29,7 @@ header {
   position: relative;
   height: 500px;
   max-width: 100%;
-  background: url("http://lorempixel.com/c/1000/1000/nature")
+  background: url("http://showsomescents.com/wp-content/uploads/2014/01/Oceans-mist-waves.jpg")
     no-repeat center center;
   background-size: cover;
   margin: 0 2px;
@@ -53,8 +53,9 @@ header {
 .sidebar {
   display: inline-block;
   width: 30%;
+  height: 100%;
   margin: 0 20px 0 10px;
-  padding: 10px 10px 0px 0px;
+  /*padding: 10px 10px 0px 0px;*/
   background: blue;
 }
 
@@ -71,4 +72,29 @@ footer {
   height: 3rem;
   background: orange;
   margin: 0 2px;
+}
+
+/* Images */
+.surf-logo {
+  height: 30px;
+  width: 30px;
+}
+.author-pic {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+}
+.author-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.ad-image {
+  height: 300px;
+  width: 300px;
+}
+
+.tiy-logo {
+  height: 30px;
+  width: 30px;
 }
