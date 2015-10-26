@@ -97,7 +97,7 @@ header h3 {
 }
 .left-column span {
   margin-top: 0;
-  color: #5185aa
+  color: #5185aa;
 }
 .left-column ul {
   float: left;
@@ -124,18 +124,41 @@ header h3 {
   padding: 2px;
   color: white;
 }
-li a .fa-comment, .fa-cloud-upload {
-  border: 2px darkgrey solid;
-  background: darkgrey;
-  text-decoration: none;
-  color: white
-}
+
 .sidebar {
-  display: inline-block;
-  width: 20%;
-  margin: 10px 20px;
+  position: relative;
+  float: right;
+  width: 33%;
+  margin: 34px 50px 0 8px;
   padding: 10px;
-  background: blue;
+  background: white;
+}
+
+.sidebar .author-info {
+  text-align: center;
+  color: #5185aa;
+  padding: 0;
+  margin-top: 0;
+}
+.sidebar .ad a {
+  float: right;
+  margin-right: 28px;
+  font-size: 11px;
+  color: lightgrey;
+}
+.sidebar-section h3 {
+  display: block;
+  margin: 64px 0 0 24px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #5185aa;
+}
+.sidebar-section p {
+  display: block;
+  margin: 0 0 0 24px;
+  font-size: 14px;
+  color: grey;
+
 }
 
 /* Container Content */
@@ -170,8 +193,10 @@ footer {
   border-radius: 100%;
 }
 .ad-image {
-  height: 300px;
-  width: 300px;
+  display: inline-block;
+  margin: 20px 0 0 30px;
+  height: 250px;
+  width: 250px;
 }
 
 .tiy-logo {
