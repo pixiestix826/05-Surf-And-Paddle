@@ -6,6 +6,7 @@ body {
   display: block;
   position: absolute;
   max-width: 1000px;
+  height: 100vh;
   font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   /*color: rgba(245, 246, 239, 0.01);*/
@@ -170,8 +171,32 @@ header h3 {
 
 /* Container Content */
 .container {
-  background: red;
+  width: 100%;
+  text-align: center;
+  border-top: 1px lightgrey solid;
 }
+
+.four-up {
+  display: flex;
+  justify-content: center;
+}
+
+.four-up a {
+  position: relative;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  color: black;
+
+}
+
+.four-up span {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+}
+
+
 
 /* Footer */
 footer {
