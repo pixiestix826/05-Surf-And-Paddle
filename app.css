@@ -144,6 +144,10 @@ header h3 {
   color: white;
 }
 
+.left-column .comments-box a {
+  text-decoration: none;
+}
+
 .sidebar {
   position: relative;
   float: right;
@@ -210,7 +214,6 @@ header h3 {
   justify-content: center;
   margin-bottom: 0;
   padding: 0;
-  background: #23252a;
 }
 
 .four-up a {
@@ -224,14 +227,16 @@ header h3 {
 .four-up span {
   position: absolute;
   bottom: 1rem;
-  width: 100%;
   color: #23252a;
 }
 
 .four-up img {
   position: relative;
-  height: 300px;
-  width: 250px;
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  height: 314px;
+  width: 248px;
   color: #23252a;
 }
 
@@ -249,10 +254,6 @@ footer {
   color: lightgrey;
 }
 
-.tiy-logo {
-  height: 30px;
-  width: 30px;
-}
 
 .footer-nav {
   text-align: center;
