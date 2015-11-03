@@ -8,7 +8,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: 'PT Sans', sans-serif;
-  /*font-weight: 400;*/
 
 
 }
@@ -126,11 +125,14 @@ header h3 {
   display: inline;
   width: 100%;
   padding: 0 10px;
+  text-align: center;
   font-size: 11px;
 }
 .left-column .fa-comment, .fa-cloud-upload {
   border: 2px darkgrey solid;
   background: darkgrey;
+  text-align: left;
+  margin-left: 0;
   padding: 2px;
   color: white;
 }
@@ -142,8 +144,16 @@ header h3 {
   color: white;
 }
 
-.left-column .comments-box a {
-  text-decoration: none;
+button {
+flex: 1;
+border: transparent;
+}
+
+.read_btn {
+  background: lightgrey;
+}
+.share_btn {
+  background: #1d6ca6;
 }
 
 .sidebar {
@@ -206,14 +216,12 @@ header h3 {
 }
 
 .four-up {
-  display: flex;
-  justify-content: center;
+  flex: 1 0 calc(25% - 2px);
   margin-bottom: 0;
   padding: 0;
 }
 
 .four-up a {
-  position: relative;
   font-weight: bold;
   text-decoration: none;
   text-align: left;
@@ -233,7 +241,6 @@ header h3 {
   padding: 0;
   height: 314px;
   width: 248px;
-  color: #23252a;
 }
 
 
