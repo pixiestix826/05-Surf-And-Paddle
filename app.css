@@ -7,6 +7,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin: 2px;
   font-family: 'PT Sans', sans-serif;
 
 
@@ -61,7 +62,7 @@ header {
   overflow: hidden;
   position: relative;
   height: calc(100vh - 5rem);
-  /*max-width: 100%;*/
+  max-width: 100%;
   background: url("http://showsomescents.com/wp-content/uploads/2014/01/Oceans-mist-waves.jpg")
     no-repeat center center;
   background-size: cover;
@@ -70,17 +71,16 @@ header {
 
 .hero {
   position: absolute;
-  transform: translateX(50%);
-  font-size: 2.2rem;
+  transform: translate(30%, 70%);
+  font-size: 3rem;
   color: white;
 }
 header h3 {
-  display: block;
   position: absolute;
-  margin-left: 50%;
+  transform: translate(200%, 50%);
   text-align: center;
   bottom: 44%;
-  font-size: 12px;
+  font-size: 1rem;
   color: black;
 
 }
@@ -216,12 +216,14 @@ border: transparent;
 }
 
 .four-up {
-  flex: 1 0 calc(25% - 2px);
+  flex: 1;
   margin-bottom: 0;
   padding: 0;
 }
 
 .four-up a {
+  flex: 1;
+  position: relative;
   font-weight: bold;
   text-decoration: none;
   text-align: left;
@@ -235,12 +237,7 @@ border: transparent;
 }
 
 .four-up img {
-  position: relative;
-  overflow: visible;
-  margin: 0;
-  padding: 0;
-  height: 314px;
-  width: 248px;
+  width: 100%;
 }
 
 
