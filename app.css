@@ -90,7 +90,7 @@ header h3 {
 /* Middle Content */
 .left-column {
   display: inline-block;
-  width: 45%;
+  width: 50%;
   margin: 3rem 0 2rem 10rem;
   padding: 2rem;
   background: white;
@@ -163,8 +163,8 @@ border: transparent;
 
 .sidebar {
   float: right;
-  width: 25%;
-  margin: 34px 50px 0 8px;
+  width: 30%;
+  margin: 6rem 6rem 0 0;
   padding: 10px;
   background: white;
 }
@@ -176,8 +176,10 @@ border: transparent;
   margin-top: 0;
 }
 .sidebar .ad a {
-  margin-right: 28px;
-  font-size: 11px;
+  float: right;
+  margin-right: 4.5rem;
+  text-align: right;
+  font-size: 1rem;
   color: lightgrey;
 }
 .sidebar-section h3 {
@@ -200,9 +202,10 @@ border: transparent;
 }
 .ad-image {
   display: inline-block;
-  margin: 20px 0 0 30px;
-  height: 250px;
-  width: 250px;
+  margin: inherit;
+  margin-bottom: 0;
+  height: 16rem;
+  width: 16rem;
 }
 
 /* Container Content */
