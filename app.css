@@ -23,12 +23,13 @@ body {
   position: absolute;
   display: inline-block;
   font-size: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
+  color: #1d395b;
 }
 .surf-logo {
   height: 2.5rem;
   width: 2.5rem;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
 }
 
 .top-nav ul {
@@ -42,12 +43,12 @@ body {
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
-  color: black;
+  color: #1d395b;
 }
 
 .top-nav a {
   text-decoration: none;
-  color: black;
+  color: #1d395b;
 }
 
 
@@ -71,25 +72,27 @@ header {
 
 .hero {
   position: absolute;
-  transform: translate(30%, 70%);
-  font-size: 3rem;
+  transform: translate(50%, -5%);
+  text-align: center;
+  font-size: 2.5rem;
   color: white;
 }
+
 header h3 {
   position: absolute;
   transform: translate(200%, 50%);
   text-align: center;
   bottom: 44%;
   font-size: 1rem;
-  color: black;
+  color: #2e3030;
 
 }
 /* Middle Content */
 .left-column {
   display: inline-block;
-  width: 50%;
-  margin: 10px 0 10px 100px;
-  padding: 10px 0 2px 10px;
+  width: 45%;
+  margin: 3rem 0 2rem 10rem;
+  padding: 2rem;
   background: white;
 }
 
@@ -100,13 +103,13 @@ header h3 {
 .left-column h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #23252a;
+  color: #13123e;
 }
 
 .left-column h2 {
   border-left: 2px lightgrey solid;
-  padding: 20px 20px 0 20px;
   margin-bottom: 0;
+  padding: 1rem;
   color: #5185aa;
 }
 .left-column span {
@@ -116,30 +119,31 @@ header h3 {
 .left-column ul {
   float: left;
   margin-left: 0;
-  line-height: normal;
   text-decoration: none;
   list-style: none;
+  color: white;
 }
 .left-column li {
   display: inline;
   width: 100%;
-  padding: 0 10px;
-  text-align: center;
-  font-size: 11px;
+  line-height: 0.5rem;
+  text-align: left;
+  font-size: 4rem;
+
 }
 .left-column .fa-comment, .fa-cloud-upload {
-  border: 2px darkgrey solid;
+  border:  0.3rem darkgrey solid;
   background: darkgrey;
   text-align: left;
   margin-left: 0;
-  padding: 2px;
+  font-size: 1rem;
   color: white;
 }
 
 .left-column .fa-share-square-o {
-  border: 2px black solid;
+  border: 0.3rem black solid;
   background: black;
-  padding: 2px;
+  font-size: 1rem;
   color: white;
 }
 
@@ -150,9 +154,11 @@ border: transparent;
 
 .read_btn {
   background: lightgrey;
+  padding: 0 0.5rem 0 0;
 }
 .share_btn {
   background: #1d6ca6;
+  padding: 0 0.5rem 0 0;
 }
 
 .sidebar {
@@ -210,7 +216,7 @@ border: transparent;
 
 .container h1 {
   font-size: 3rem;
-  color: #23252a;
+  color: #13123e;
 }
 
 .four-up {
@@ -250,7 +256,7 @@ footer {
   position: sticky;
   top: 100%;
   height: 6rem;
-  background: #23252a;
+  background: #13123e;
   margin: 0 2px;
   padding: 0;
   color: lightgrey;
