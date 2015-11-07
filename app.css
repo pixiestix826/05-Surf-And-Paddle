@@ -14,33 +14,33 @@ body {
 }
 /* Top Navigation */
 .top-nav {
-  overflow: hidden;
-  height: 3rem;
-  background: #5185aa;
-  margin: 0 2px;
+  position: relative;
 }
 .top-nav h2 {
   position: absolute;
   display: inline-block;
-  font-size: 14px;
-  margin-left: 20px;
+  font-size: 1rem;
+  margin-left: 2rem;
 }
 .surf-logo {
-  height: 30px;
-  width: 30px;
-  margin: 5px 0 0 100px;
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 1.5rem;
 }
 
 .top-nav ul {
   float: right;
   margin-right: 2rem;
+  /*position: absolute;
+  display: flex;
+  align-self: flex-end;*/
 }
 .top-nav li {
   display: inline;
   margin: 0 0.8em 0 0;
   list-style: none;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: bold;
   color: black;
 }
@@ -55,13 +55,13 @@ body {
 main {
   overflow: auto;
   flex: 1 0;
-  /*background: #999;*/
+  background: #999;
 }
 
 header {
-  overflow: hidden;
+  overflow: visible;
   position: relative;
-  height: calc(100vh - 5rem);
+  height: 100vh;
   max-width: 100%;
   background: url("http://showsomescents.com/wp-content/uploads/2014/01/Oceans-mist-waves.jpg")
     no-repeat center center;
@@ -94,7 +94,7 @@ header h3 {
 }
 
 .author-pic {
-  width: 15px;
+  width: 1.5rem;
   border-radius: 100%;
 }
 .left-column h1 {
@@ -189,8 +189,7 @@ border: transparent;
 
 }
 .author-image {
-  height: 40px;
-  width: 40px;
+  width: 4rem;
   border-radius: 100%;
 }
 .ad-image {
@@ -239,7 +238,7 @@ border: transparent;
 
 .four-up img {
   flex: 1;
-  height: 24rem;
+  height: 26rem;
   width: 22rem;
 }
 
