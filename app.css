@@ -14,7 +14,10 @@ body {
 }
 /* Top Navigation */
 .top-nav {
+  overflow: hidden;
   position: relative;
+  height: 3rem;
+  margin: 2px;
 }
 .top-nav h2 {
   position: absolute;
@@ -31,13 +34,10 @@ body {
 .top-nav ul {
   float: right;
   margin-right: 2rem;
-  /*position: absolute;
-  display: flex;
-  align-self: flex-end;*/
 }
 .top-nav li {
   display: inline;
-  margin: 0 0.8em 0 0;
+  margin-right: 0.8em;
   list-style: none;
   text-decoration: none;
   font-size: 1rem;
@@ -59,9 +59,9 @@ main {
 }
 
 header {
-  overflow: visible;
+  overflow: hidden;
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 3rem);
   max-width: 100%;
   background: url("http://showsomescents.com/wp-content/uploads/2014/01/Oceans-mist-waves.jpg")
     no-repeat center center;
