@@ -223,6 +223,7 @@ border: transparent;
 }
 
 .four-up {
+  display: flex;
   width: 100%;
   margin-bottom: 0;
   padding: 0;
@@ -248,10 +249,8 @@ border: transparent;
 .four-up img {
   flex: 1;
   height: 26rem;
-  width: 22rem;
+  width: 21.5rem;
 }
-
-
 
 /* Footer */
 footer {
