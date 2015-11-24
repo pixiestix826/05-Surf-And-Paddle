@@ -247,9 +247,10 @@ border: transparent;
 }
 
 .four-up img {
+  display: block;
   flex: 1;
   height: 26rem;
-  width: 22.1rem;
+  width: 22.3rem;
 }
 
 /* Footer */
