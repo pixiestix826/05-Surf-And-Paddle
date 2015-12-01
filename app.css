@@ -1,3 +1,291 @@
-html {
+* {
+  box-sizing: border-box;
+}
 
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 2px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* Top Navigation */
+.top-nav {
+  overflow: hidden;
+  position: relative;
+  height: 3rem;
+  margin: 2px;
+}
+.top-nav h2 {
+  position: absolute;
+  display: inline-block;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #1d395b;
+}
+.surf-logo {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 2rem;
+}
+
+.top-nav ul {
+  float: right;
+  margin-right: 2rem;
+}
+.top-nav li {
+  display: inline;
+  margin-right: 0.8em;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #1d395b;
+}
+
+.top-nav a {
+  text-decoration: none;
+  color: #1d395b;
+}
+
+
+/* Main */
+main {
+  /*overflow: auto;*/
+  flex: 1 0;
+  /*background: #999;*/
+}
+
+header {
+  overflow: hidden;
+  position: relative;
+  height: calc(100vh - 3rem);
+  max-width: 100%;
+  background: url("http://showsomescents.com/wp-content/uploads/2014/01/Oceans-mist-waves.jpg")
+    no-repeat center center;
+  background-size: cover;
+  margin: 0 2px;
+}
+
+.hero {
+  position: absolute;
+  transform: translate(50%, 80%);
+  text-align: center;
+  font-size: 2.5rem;
+  color: white;
+}
+
+header h3 {
+  position: absolute;
+  transform: translate(200%, 50%);
+  text-align: center;
+  bottom: 44%;
+  font-size: 1rem;
+  color: #2e3030;
+
+}
+/* Middle Content */
+.left-column {
+  display: inline-block;
+  width: 50%;
+  margin: 3rem 0 2rem 10rem;
+  padding: 2rem;
+  background: white;
+}
+
+.author-pic {
+  width: 1.5rem;
+  border-radius: 100%;
+}
+.left-column h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #13123e;
+}
+
+.left-column h2 {
+  border-left: 2px lightgrey solid;
+  margin-bottom: 0;
+  padding: 1rem;
+  color: #5185aa;
+}
+.left-column span {
+  margin-top: 0;
+  color: #5185aa;
+}
+.left-column ul {
+  float: left;
+  margin-left: 0;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+.left-column li {
+  display: inline;
+  line-height: 0.5rem;
+  text-align: left;
+  font-size: 4rem;
+
+}
+.left-column .fa-comment, .fa-cloud-upload {
+  border:  0.3rem darkgrey solid;
+  background: darkgrey;
+  text-align: left;
+  margin-left: 0;
+  font-size: 1rem;
+  color: white;
+}
+
+.left-column .fa-share-square-o {
+  border: 0.3rem black solid;
+  background: black;
+  font-size: 1rem;
+  color: white;
+}
+
+button {
+flex: 1;
+border: transparent;
+}
+
+.read_btn {
+  background: lightgrey;
+  padding: 0 0.5rem 0 0;
+}
+.share_btn {
+  background: #1d6ca6;
+  padding: 0 0.5rem 0 0;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  margin: 8rem 6rem 0 0;
+  background: white;
+}
+
+.sidebar .author-info {
+  text-align: center;
+  color: #5185aa;
+  padding: 0;
+  margin-top: 0;
+}
+.sidebar .ad a {
+  float: right;
+  margin-right: 20px;
+  text-align: right;
+  font-size: 1rem;
+  color: lightgrey;
+}
+.sidebar-section h3 {
+  margin: 64px 0 0 40px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #5185aa;
+}
+.sidebar-section p {
+  margin: 0 0 0 40px;
+  font-size: 14px;
+  color: grey;
+
+}
+.author-image {
+  width: 4rem;
+  border-radius: 100%;
+}
+.ad-image {
+  margin: 20px 30px 10px 48px;
+  height: 16rem;
+  width: 22rem;
+}
+
+/* Container Content */
+.container {
+  width: 100%;
+  margin: 0 2px 0 0;
+  padding-bottom: 0;
+  border-top: 1px lightgrey solid;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: #13123e;
+}
+
+.four-up {
+  display: flex;
+  width: 100%;
+  margin: 0 0 0 2px;
+  padding: 0;
+}
+
+.four-up a {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: justify;
+  white-space: nowrap;
+  color: #23252a;
+}
+
+.four-up span {
+  position: absolute;
+  bottom: 1rem;
+}
+
+.four-up img {
+  display: block;
+  flex: 1;
+  height: 26rem;
+  width: 22.2rem;
+}
+
+/* Footer */
+footer {
+  display: block;
+  top: 100%;
+  height: 7rem;
+  background: #13123e;
+  margin: 0 2px;
+  padding: 0;
+  color: lightgrey;
+}
+
+
+.footer-nav {
+  text-align: center;
+}
+
+.site-info p {
+  position: absolute;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 20px;
+}
+.tiy-logo {
+  margin: 0.6rem 0.6rem 0.3rem 3rem;
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+}
+
+.footer-nav ul {
+  float: right;
+  margin: 2rem 2rem 0 0;
+}
+.footer-nav li {
+  display: inline;
+  vertical-align: middle;
+  padding: 0 0.5rem 0 0;
+  list-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-right: 1px lightgrey solid;
+}
+.footer-nav a {
+  text-decoration: none;
 }
